@@ -59,6 +59,7 @@ function applyBtnThings(coupon) {
                 discountText.innerText = `${discount} Tk`;
                 const payable = document.getElementById('grandTotal');
                 payable.innerText = afterDiscountTotal;
+                couponCode.value = '';
             }
         });
     } else {
